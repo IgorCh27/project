@@ -1,10 +1,11 @@
 import {Rating} from "./components/Rating";
-import {Accordion} from "./components/Acordion";
+import {Accordion} from "./components/Accordion/Acordion";
+import { AppTitle } from "./components/AppTitle";
 
 function App() {
   return (
     <div className="App">
-        This is app
+        <AppTitle />
         <Rating />
         <Accordion />
     </div>

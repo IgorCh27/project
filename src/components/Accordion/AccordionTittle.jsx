@@ -1,0 +1,1 @@
+export const AccordionTitle = () => <h3>Title-Menu</h3>
