@@ -1,7 +1,4 @@
-export function Star() {
-    return(
-      <>
-      <div>star</div>
-      </>
-    )
+
+export function Star(props) {
+    return <span>star-</span>
   }
