@@ -1,4 +1,4 @@
 
 export function Star(props) {
-    return <span>star-</span>
+    return <span><b>star-</b></span>
   }
