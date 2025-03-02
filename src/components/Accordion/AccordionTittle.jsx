@@ -1,1 +1,1 @@
-export const AccordionTitle = () => <h3>Title-Menu</h3>
+export const AccordionTitle = (props) => props.title

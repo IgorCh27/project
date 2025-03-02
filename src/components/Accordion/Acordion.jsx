@@ -1,9 +1,9 @@
 import { AccordionTitle } from "./AccordionTittle"
 import { AccordionBody } from "./AccordionBody"
-export function Accordion() {
+export function Accordion(props) {
     return(
     <div>  
-    <AccordionTitle />
+    <AccordionTitle title = {props.titleApp}/>
     <AccordionBody />
     </div>
     )

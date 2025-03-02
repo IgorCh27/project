@@ -1,3 +1,3 @@
-export function AppTitle() {
-    return <>This is app component</>
+export function AppTitle(props) {
+    return <div>{props.title}</div>
 }

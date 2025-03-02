@@ -1,4 +1,7 @@
 
 export function Star(props) {
-    return <span><b>star-</b></span>
+  if(props.selected) {
+  return <span><b>-star</b></span>
+  }else {
+    return <span>-star</span>}
   }
